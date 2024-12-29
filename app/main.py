@@ -30,4 +30,4 @@ def handle_message(message):
 
 if __name__ == "__main__":
     # 启动 Flask Web 服务器与 WebSocket 服务器
-    socketio.run(app, debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 80)))
+    socketio.run(app, debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8089)))
